@@ -53,3 +53,7 @@ function generateRandomMessage(buzzwords, tools, methods) {
   const method = generateRandomItem(methods);
   return `Leverage ${buzzword} with ${tool} to enhance ${method}.`;
 }
+
+// display message
+const message = generateRandomMessage(buzzwords, tools, methods);
+console.log(message);
